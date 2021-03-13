@@ -7,6 +7,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="hangman-wrap">
 
+        <div id="hangman-left">
+            <img id="hangman-img" src="img/hangman.png" alt="">
+        </div>
+
+        <div id="hangman-right">
+            <div id="hangman-words"></div>
+
+            <div id="hangman-char"></div>
+
+            <div id="hangman-bottom">
+                <input type="button" value="Reset" id="hangman-reset" disabled/>
+                <div>
+                    Lives Left: <span id="hangman-lives"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
